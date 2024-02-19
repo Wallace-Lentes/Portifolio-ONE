@@ -7,15 +7,26 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 
 }
 
+/* .cabecalho {
+
+}
+
+.linkHome {
+
+}
+
+.linkSobremim {
+
+} */
+
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
    justify-content: space-between;
@@ -72,6 +83,8 @@ body {
 }
 
 .links__botao {
+    display: flex;
+    justify-content: center;
     width:  380px;
     text-align: center;
     border-radius: 8px;
@@ -81,7 +94,21 @@ body {
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    gap: 24px; 
+    gap: 16px; 
     border: 2px solid #22D4FD;
 
+}
+
+.links__botao:hover {
+    background-color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #22D4FD;
 }
