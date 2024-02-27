@@ -13,17 +13,25 @@ body {
 
 }
 
-/* .cabecalho {
-
+.cabecalho {
+    padding: 2% 0% 0% 15%;
 }
 
-.linkHome {
-
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+    
 }
 
-.linkSobremim {
 
-} */
+.linkCabecalho {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+
+}
 
 .apresentacao {
     padding: 8% 15%;
